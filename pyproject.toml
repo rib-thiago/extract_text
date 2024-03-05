@@ -7,7 +7,22 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.10.13"
+textual-dev = "^1.5.1"
+pytesseract = "^0.3.10"
+opencv-python = "^4.9.0.80"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+pytest-cov = "^4.1.0"
+blue = "^0.9.1"
+isort = "^5.13.2"
+taskipy = "^1.12.2"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocstrings = "^0.24.1"
+mkdocstrings-python = "^1.8.0"
 
 [build-system]
 requires = ["poetry-core"]
