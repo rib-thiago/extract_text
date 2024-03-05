@@ -6,3 +6,11 @@ edit_uri: /tree/main/docs
 theme:
   name: material
   language: pt-BR
+  logo: assets/python.png
+  favicon: assets/python.png
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
