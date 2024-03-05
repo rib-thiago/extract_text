@@ -32,3 +32,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 pythonpath = "."
 addopts = "--doctest-modules"
+
+[tool.isort]
+profile = "black"
+line_lenght = 79
